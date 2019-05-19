@@ -1,0 +1,8 @@
+@import './styles/card-container.css';
+@import './styles/card.css';
+
+@page {
+    size: auto;   /* auto is the initial value */
+    /* this affects the margin in the printer settings */
+    padding: 0.5in 0.5in 0.5in 0.5in;
+}

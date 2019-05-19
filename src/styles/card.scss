@@ -1,0 +1,38 @@
+.card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 2.5in;
+  height: 3.5in;
+  text-align: center;
+  border: 1px solid yellow;
+  padding: 12px;
+
+  header,
+  footer {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      flex: 1 0;
+    }
+
+    .left {
+      text-align: left;
+    }
+
+    .right {
+      text-align: right;
+    }
+  }
+
+  content {
+    flex: 1 0;
+
+    div[class^='color-']{
+      color: red;
+      background-color: green;
+    }
+  }
+}
