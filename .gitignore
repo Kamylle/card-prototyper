@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.map
+src/styles/card-container.css
+src/styles/card.css
+src/styles/variables.css
