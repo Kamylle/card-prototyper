@@ -34,11 +34,12 @@
   }
 }
 
-// Style layout cards based on color here
+// Color based style here
 @each $color-name, $color-hex  in $color-map {
   .color-#{$color-name} {
+    $card-color: #{$color-hex};
     h2 {
-      color: #{$color-hex};
+      color: $card-color;
     }
   }
 }
