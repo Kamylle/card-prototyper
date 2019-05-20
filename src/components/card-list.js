@@ -8,24 +8,42 @@ class CardList extends React.Component {
       cards: [
         {
           qty: 3,
-          color: "red",
+          color: "green",
+          layout: "resource",
           title: "Card One",
-          description: "Lorem Ipsum si meliora dies ut vina poemata redict",
-          top: {    left:"1", center:"", right:"❤️❤️❤️"},
-          bottom: { left:"", center:"XXX", right:""}
+          cardType: "Type 1",
+          stat: "+2 ❌",
+          top: { left:"1", center:"", right:"❤️❤️❤️"}
         },
         {
           qty: 5,
-          title: "Card Two",
           color: "blue",
-          top: {    left:"2", center:"000", right:""},
-          bottom: { left:"", center:"🛸🛸", right:""}
+          layout: "unit",
+          title: "Card Two",
+          cardType: "Type 2",
+          stat: "4 🦄",
+          description: "Lorem Ipsum si meliora dies ut vina poemata redict",
+          top: { left:"2", center:"000", right:""}
         },
         {
           qty: 2,
+          color: "pink",
+          layout: "unit",
+          title: "Card Two",
+          cardType: "Type 2",
+          stat: "4 🦄",
+          description: "Lorem Ipsum si meliora dies ut vina poemata redict",
+          top: { left:"2", center:"000", right:""}
+        },
+        {
+          qty: 2,
+          color: "red",
+          layout: "special",
           title: "Card Three",
-          color: "purple",
-          top: {    left:"2", center:"000", right:"❤️❤️"},
+          cardType: "Type 3",
+          stat: "5 ❤️",
+          description: "Lorem Ipsum si meliora dies ut vina poemata redict",
+          top: { left:"2", center:"000", right:"❤️❤️"},
           bottom: { left:"", center:"🛸", right:""}
         }
       ]
